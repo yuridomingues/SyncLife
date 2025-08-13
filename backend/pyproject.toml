@@ -1,0 +1,21 @@
+[project]
+name = "synclife-backend"
+version = "0.1.0"
+description = "FastAPI backend for SyncLife weekly planner, calendar and finance"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.23.0",
+    "sqlalchemy>=2.0.25",
+    "aiosqlite>=0.19.0",
+    "pydantic>=2.6.0",
+    "pydantic-settings>=2.2.1",
+    "python-multipart>=0.0.9",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0.0",
+    "httpx>=0.27.0",
+]
