@@ -84,6 +84,6 @@ frontend/
 - Adicione Alembic para migrações de banco.
 - Inclua autenticação se precisar de multiusuário (ex.: JWT + usuários/tokens).
 - Crie Dockerfiles e um docker-compose para subir tudo em rede local.
-- Melhorar interface
+- Melhore interface.
 
 Bom proveito! 🚀
